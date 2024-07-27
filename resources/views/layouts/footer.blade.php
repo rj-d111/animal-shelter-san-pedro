@@ -32,10 +32,10 @@
         <div class="border-t border-black py-4">
             <ul
                 class="flex flex-col md:flex-row justify-center md:justify-between items-center space-y-2 md:space-y-0 md:space-x-4">
-                <li><a href="#" class="dark:hover:text-pink-400 hover:text-gray-700">Sign in</a></li>
-                <li><a href="#" class="dark:hover:text-pink-400 hover:text-gray-700">Register</a></li>
-                <li><a href="#" class="dark:hover:text-pink-400 hover:text-gray-700">Reset Password</a></li>
-                <li><a href="#" class="dark:hover:text-pink-400 hover:text-gray-700">Help</a></li>
+                <li><a href="{{url('login')}}" class="dark:hover:text-pink-400 hover:text-gray-700">Sign in</a></li>
+                <li><a href="{{url('register')}}" class="dark:hover:text-pink-400 hover:text-gray-700">Register</a></li>
+                <li><a href="{{url('reset-password')}}" class="dark:hover:text-pink-400 hover:text-gray-700">Reset Password</a></li>
+                <li><a href="{{url('help')}}" class="dark:hover:text-pink-400 hover:text-gray-700">Help</a></li>
             </ul>
         </div>
         <!-- Bottom Section -->

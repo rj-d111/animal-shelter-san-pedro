@@ -48,22 +48,24 @@
     <section id="video">
         <div class="container mx-auto py-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- First Grid: YouTube Video -->
-                <div class="flex justify-center">
-                    <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/ZXKhOicjQ_o?embeds_referring_euri=https%3A%2F%2Ftasteof-parisnotpares.my.canva.site%2F&source_ve_path=MjM4NTE"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <div class="flex justify-center w-4/5 mx-auto">
+                  <iframe
+                    class="w-full h-[300px]"
+                    src="https://www.youtube.com/embed/ZXKhOicjQ_o?embeds_referring_euri=https%3A%2F%2Ftasteof-parisnotpares.my.canva.site%F&source_ve_path=MjM4NTE"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-pocket"
+                    allowfullscreen
+                  ></iframe>
                 </div>
-                <!-- Second Grid: Text and Image -->
-                <div class="text-center md:text-left">
+              
+                <div class="grid items-center">  <div class="text-center md:text-left">
                     <h2 class="text-3xl font-bold mb-2">Who We Are</h2>
                     <p class="my-4">San Pedro Animal Shelter is a non-profit Animal Shelter located at San Pedro Laguna
-                        and taken care of by Wilma Evangelista and other volunteers.</p>
+                      and taken care of by Wilma Evangelista and other volunteers.</p>
                     <a href="{{url('about')}}" class="bg-pink-500 text-white py-2 px-4 rounded">Learn More About Us</a>
+                  </div>
                 </div>
-            </div>
+              </div>
         </div>
     </section>
 @endsection
